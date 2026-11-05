@@ -1,0 +1,59 @@
+body { margin:0;
+font-family: Arial,Helvetica,sans-seri;
+background-color: bisque;
+color: sienna;}
+
+header{background-color: lightpink;
+color: sienna;
+padding: 24px;
+text-align: center;
+}
+
+main{
+    max-width:600px;
+    margin: 0 auto;
+    padding: 24px;
+}
+section{
+    background-color: floralwhite;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+span{
+    font-weight: bold;
+    color:blue;
+}
+footer{text-align:center;padding:24px;}
+
+.card{
+    background-color: cornflowerblue;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+.card h2{margin:0 0 8px;}
+
+.valor{font-weight: bold; color:darkorange;}
+
+.destaque{background-color: pink;}
+.card.destaque h2{color:black;}
+ 
+#topo{background-color: firebrick; color: beige;}
+#contato{background-color: greenyellow}
+.selecionado{background-color: black;}
+#limpar{
+    padding: 8px;
+    border: 1px solid #4f4f4f;
+    background-color: azure;
+    color: blue;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#resumo{color:red}
+.aviso{color:green}
+
